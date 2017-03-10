@@ -6,7 +6,7 @@ import { ContatosListaComponent } from './contatos-lista.component';
 @NgModule({
     imports: [
         CommonModule
-    ]
+    ],
     declarations: [
         ContatosListaComponent
     ],

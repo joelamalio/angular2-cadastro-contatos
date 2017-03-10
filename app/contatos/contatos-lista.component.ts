@@ -4,12 +4,12 @@ import { Contato } from './contato.model';
 import { CONTATOS } from './contatos.mock';
 
 @Component({
-    moduleId: module.id
+    moduleId: module.id,
     selector: 'contatos-lista',
     templateUrl: 'contatos-lista.component.html'
 }) 
 export class ContatosListaComponent {
 
-    contatos: Contatoo[] = CONTATOS; 
+    contatos: Contato[] = CONTATOS; 
 
 }
